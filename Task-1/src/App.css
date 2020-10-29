@@ -1,0 +1,16 @@
+body {
+  background: green;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  background: red;
+  padding: 1rem;
+  margin: 2rem;
+  display: inline-block;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  border-radius: 5px;
+}
