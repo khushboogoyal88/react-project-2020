@@ -15,6 +15,8 @@ class App extends Component {
       return;
     } else {
       this.setState({ likes: this.state.likes - 1 });
+      let newColor = this.state.color === "#eee" ? "#ACCEEC" : "#eee";
+      this.setState({ color: newColor });
     }
   };
   //method for reseting likes
