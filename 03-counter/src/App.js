@@ -6,8 +6,7 @@ class App extends Component {
   //method to add likes
   addHandler = (event) => {
     this.setState({ likes: this.state.likes + 1 });
-    let newColor = this.state.color === "#eee" ? "#ACCEEC" : "#eee";
-    this.setState({ color: newColor });
+    this.changeColor();
   };
   //method to remove likes
   removeHandler = () => {
@@ -15,8 +14,7 @@ class App extends Component {
       return;
     } else {
       this.setState({ likes: this.state.likes - 1 });
-      let newColor = this.state.color === "#eee" ? "#ACCEEC" : "#eee";
-      this.setState({ color: newColor });
+      this.changeColor();
     }
   };
   //method for reseting likes
@@ -24,6 +22,10 @@ class App extends Component {
     this.setState({ likes: 0 });
   };
 
+  changeColor = () => {
+    let newColor = this.state.color === "#eee" ? "#ACCEEC" : "#eee";
+    this.setState({ color: newColor });
+  };
   render() {
     return (
       <div className="App">
