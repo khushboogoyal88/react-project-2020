@@ -1,0 +1,25 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "Post1",
+            "author": "Khushboo",
+            "desc": "Ther is no description required. It is famous as hell.",
+            "img": "http://source.unsplash.com/wdL8UywQtWU"
+        },
+        {
+            "id": 2,
+            "title": "Post2",
+            "author": "Ankur",
+            "desc": "Ther is no description required. It is famous as hell.",
+            "img": "http://source.unsplash.com/wdL8UywQtWU"
+        },
+        {
+            "id": 3,
+            "title": "Post3",
+            "author": "Kia",
+            "desc": "Ther is no description required. It is famous as hell.",
+            "img": "http://source.unsplash.com/wdL8UywQtWU"
+        }
+    ]
+}

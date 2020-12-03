@@ -1,10 +1,10 @@
-import React from "react";
-import Posts from "../Posts/Posts";
+import React, { useState } from "react";
+import Blog from "../Posts/Blog";
 
 const Main = () => {
   return (
     <main>
-      <Posts />
+      <Blog />
     </main>
   );
 };
