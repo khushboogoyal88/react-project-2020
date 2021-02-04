@@ -11,6 +11,8 @@ const letters = require('./routes/letters');
 
 const app = express();
 
+app.use(express.json());
+
 app.use('/api/v1/letters', letters);
 
 const PORT = process.env.PORT || 5000;
